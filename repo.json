@@ -1,6 +1,10 @@
 {
   "anydesk": {
     "url": "https://download.anydesk.com/AnyDesk.exe",
-    "filename": "Anydesk.exe"
+    "install_cmd": "--install \"C:\\Program Files\\AnyDesk\" --start-with-win --create-shortcuts"
+  },
+  "7zip": {
+    "url": "https://www.7-zip.org/a/7z2301-x64.exe",
+    "install_cmd": "/S"
   }
 }
